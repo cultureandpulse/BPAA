@@ -1,0 +1,24 @@
+beta-phi-alumni/
+│── app/
+│   │── page.tsx (Home)
+│   │── get-active/page.tsx
+│   │── members/page.tsx
+│   │── golden-brothers/page.tsx
+│   │── leadership/page.tsx
+│   │── contact/page.tsx
+│
+│── components/
+│   │── Navbar.tsx
+│   │── Footer.tsx
+│   │── Hero.tsx
+│   │── FeatureCard.tsx
+│   │── LeadershipCard.tsx
+│
+│── styles/
+│   │── globals.css
+│
+│── public/
+│   │── images/
+│
+│── lib/
+│   │── data.ts (leadership + members data)
