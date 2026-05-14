@@ -1,0 +1,17 @@
+import Link from "next/link";
+
+export default function Navbar() {
+  return (
+    <nav className="flex justify-between px-8 py-4 border-b border-[#e3d48d] bg-black text-[#e3d48d]">
+      <h1 className="font-bold">BPAA</h1>
+
+      <div className="flex gap-6">
+        <Link href="/">Home</Link>
+        <Link href="/get-active">Get Active</Link>
+        <Link href="/members">Members</Link>
+        <Link href="/leadership">Leadership</Link>
+        <Link href="/contact">Contact</Link>
+      </div>
+    </nav>
+  );
+}
